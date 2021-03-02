@@ -296,6 +296,14 @@ module.exports = {
     method: 'POST',
     path: '/transit/decrypt/{{name}}',
   },
+  rewrapData: {
+    method: 'POST',
+    path: '/transit/rewrap/{{name}}',
+  },
+  rotateKey: {
+    method: 'POST',
+    path: '/transit/keys/{{name}}/rotate'
+  },
   generateDatabaseCredentials: {
     method: 'GET',
     path: '/{{databasePath}}/creds/{{name}}',

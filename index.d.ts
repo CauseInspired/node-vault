@@ -109,6 +109,8 @@ declare namespace NodeVault {
         stepDown(options?: Option): Promise<any>;
         encryptData(options?: Option): Promise<any>;
         decryptData(options?: Option): Promise<any>;
+        rewrapData(options?: Option): Promise<any>;
+        rotateKey(options?: Option): Promise<any>;
         generateDatabaseCredentials(options?: Option): Promise<any>;
     }
 

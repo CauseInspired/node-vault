@@ -67,6 +67,16 @@
 `POST /transit/decrypt/{{name}}`
 
 
+## vault.rewrapData
+
+`POST /transit/rewrap/{{name}}`
+
+
+## vault.rotateKey
+
+`POST /transit/keys/{{name}}/rotate`
+
+
 ## vault.generateDatabaseCredentials
 
 `GET /{{databasePath}}/creds/{{name}}`
